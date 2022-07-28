@@ -67,6 +67,8 @@ To use this PPX library in another project include the `ppx_validation_runtime` 
 )
 ```
 
+You must also update your OPAM package configuration file. Add the following line to your "pin-depends" section: `["ppx_validation.0.6.0" "git+https://github.com/llee454/ppx_validation.git#0.6.0"]`. Add the following to your "depends" section: `  "ppx_validation" { = "0.6.0"}`.
+
 Usage
 -----
 
