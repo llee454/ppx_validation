@@ -1,0 +1,11 @@
+(library
+  (name ppx_validation)
+  (kind ppx_deriver)
+  (libraries
+    core_kernel
+    lwt
+    lwt.unix
+    ppxlib
+  )
+  (preprocess (pps ppxlib.metaquot ppx_jane ppx_variants_conv))
+)

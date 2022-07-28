@@ -1,0 +1,15 @@
+(library
+  (name ppx_validation_runtime)
+  (libraries
+    core
+    lwt
+    lwt.unix
+    re
+  )
+  (preprocess (pps
+    ppx_jane
+    ppx_deriving_yojson
+    lwt_ppx
+  ))
+)
+

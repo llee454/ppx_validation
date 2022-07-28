@@ -1,0 +1,10 @@
+(executable
+ (name main)
+ (libraries
+  core_kernel
+  ppx_validation_runtime
+  )
+ (preprocess
+  (pps ppx_jane ppx_validation))
+  (modes exe)
+)
