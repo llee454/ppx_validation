@@ -1,4 +1,5 @@
 (library
+  (public_name ppx_validation)
   (name ppx_validation)
   (kind ppx_deriver)
   (libraries
