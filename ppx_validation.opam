@@ -26,7 +26,6 @@ depends: [
   "lwt_ppx"
   "ppx_blob"
   "uuidm"
-  "re2"
   "yojson"
   "ppx_deriving_yojson"
   "ocaml-compiler-libs"
