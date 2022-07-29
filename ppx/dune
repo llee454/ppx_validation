@@ -9,4 +9,5 @@
     ppxlib
   )
   (preprocess (pps ppxlib.metaquot ppx_jane ppx_variants_conv))
+  (ppx_runtime_libraries ppx_validation_runtime)
 )
