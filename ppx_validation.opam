@@ -12,8 +12,6 @@ tags: []
 homepage: ""
 doc: ""
 bug-reports: ""
-pin-depends: [
-]
 depends: [
   "ocaml"
   "dune"
