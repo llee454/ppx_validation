@@ -28,4 +28,4 @@ depends: [
   "ppx_deriving_yojson"
   "ocaml-compiler-libs"
 ]
-# build: ["dune" "build" "-p" name "-j" jobs]
+build: ["dune" "build" "-p" name "-j" jobs]
